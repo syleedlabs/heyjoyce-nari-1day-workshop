@@ -1,0 +1,14 @@
+{
+  "name": "heyjoyce-nari-1day-workshop",
+  "version": "1.0.0",
+  "description": "나만의 커리어 코치 — 내 지식을 학습한 분신 에이전트 만들기 워크숍 (VitePress 워크북)",
+  "type": "module",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.3"
+  }
+}

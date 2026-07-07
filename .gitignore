@@ -1,0 +1,12 @@
+# 의존성
+node_modules/
+docs/.vitepress/dist/
+docs/.vitepress/cache/
+
+# ⚠️ 지식 베이스 실자료 — 개인정보(상담 노트) 로컬 보관 원칙, 절대 공개 금지
+knowledge/원본/
+# 인덱스 템플릿(_인덱스.md)은 구조라 공개 가능하나, 학습자 실데이터가 채워지면 아래 주석 해제 권장
+# knowledge/_인덱스.md
+
+# OS
+.DS_Store
