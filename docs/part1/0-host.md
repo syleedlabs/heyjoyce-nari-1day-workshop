@@ -26,15 +26,15 @@ html.dark .host{
 .host .eyebrow .bar{width:34px;height:3px;background:var(--h-accent);border-radius:2px;margin-top:7px}
 .host .eyebrow .tag{color:var(--h-accent);font-size:.64rem;font-weight:700;letter-spacing:.22em;text-transform:uppercase}
 
-.host .head{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;padding-bottom:18px;border-bottom:2px solid var(--h-line);margin-bottom:26px}
+.host .head{display:flex;flex-direction:column;align-items:flex-start;padding-bottom:20px;border-bottom:2px solid var(--h-line);margin-bottom:26px}
 .host .head .name{font-size:2rem;font-weight:800;letter-spacing:-.01em;line-height:1.05;margin:0;color:var(--h-ink);border:none;padding:0}
 .host .head .role{color:var(--h-accent);font-weight:800;font-size:1rem;margin-top:6px}
 .host .head .role-sub{color:var(--h-muted);font-size:.85rem;margin-top:1px}
-.host .head-right{text-align:right;display:flex;flex-direction:column;align-items:flex-end;gap:2px}
-.host .head-right .word{font-size:1.3rem;font-weight:800;letter-spacing:.02em;color:var(--h-navy)}
-.host .head-right .word .dot{color:var(--h-accent)}
-.host .head-right .btag{color:var(--h-muted);font-size:.73rem;margin-bottom:8px}
-.host .contact{display:flex;flex-direction:column;gap:6px;align-items:flex-end}
+.host .head .brand{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;margin-top:16px}
+.host .head .brand .word{font-size:1.15rem;font-weight:800;letter-spacing:.02em;color:var(--h-navy)}
+.host .head .brand .word .dot{color:var(--h-accent)}
+.host .head .brand .btag{color:var(--h-muted);font-size:.75rem}
+.host .contact{display:flex;flex-direction:column;gap:6px;align-items:flex-start;margin-top:12px}
 .host .contact a{display:flex;align-items:center;gap:8px;color:var(--h-muted);font-size:.82rem;transition:color .15s}
 .host .contact a:hover{color:var(--h-accent)}
 .host .contact .ic{width:19px;height:19px;flex:none;display:grid;place-items:center;border-radius:6px;background:var(--h-surface2);border:1px solid var(--h-line);color:var(--h-navy);font-size:.66rem;font-weight:700}
@@ -86,8 +86,9 @@ html.dark .host{
 <div class="host">
 <div class="eyebrow"><div class="lab"><b>강사 소개</b><span class="bar"></span></div><span class="tag">INSTRUCTOR</span></div>
 <header class="head">
-<div class="head-left"><h1 class="name">이수연</h1><div class="role">디랩스(D.LABS) 대표</div><div class="role-sub">AX 바이브코딩 교육 · 컨설팅</div></div>
-<div class="head-right"><div class="word">D.LABS<span class="dot">.</span></div><div class="btag">Define · Design · Delegate</div><div class="contact"><a href="mailto:team.d.labs@gmail.com"><span class="ic">✉</span>team.d.labs@gmail.com</a><a href="https://linkedin.com/in/syceline" target="_blank" rel="noreferrer"><span class="ic">in</span>linkedin.com/in/syceline</a></div></div>
+<h1 class="name">이수연</h1><div class="role">디랩스(D.LABS) 대표</div><div class="role-sub">AX 바이브코딩 교육 · 컨설팅</div>
+<div class="brand"><span class="word">D.LABS<span class="dot">.</span></span><span class="btag">Define · Design · Delegate</span></div>
+<div class="contact"><a href="mailto:team.d.labs@gmail.com"><span class="ic">✉</span>team.d.labs@gmail.com</a><a href="https://linkedin.com/in/syceline" target="_blank" rel="noreferrer"><span class="ic">in</span>linkedin.com/in/syceline</a></div>
 </header>
 <div class="grid2">
 <div class="col">
