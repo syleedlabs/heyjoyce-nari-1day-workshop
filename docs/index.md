@@ -15,58 +15,58 @@ hero:
 
 features:
   - icon: 🎬
-    title: Prologue — 내 지식이 말을 한다면
-    details: 오늘 무엇을 만드는지 5분 미리보기 + 4시간 뒤의 약속
+    title: "Prologue — 내 지식이 말을 한다면"
+    details: "오늘 무엇을 만드는지 5분 미리보기 + 4시간 뒤의 약속"
     link: /prologue
     linkText: 프롤로그
   - icon: 🤖
-    title: 1-1. 클로드 코드란?
-    details: 보통 챗봇과 뭐가 다른지 · AI-Native 마인드셋
+    title: "1-1. 클로드 코드란?"
+    details: "보통 챗봇과 뭐가 다른지 · AI-Native 마인드셋"
     link: /part1/1-1-intro
     linkText: 열기
   - icon: ⌨️
-    title: 1-2. 명령어 & 네비게이션
-    details: 슬래시 명령어 · 대화로 시키고 고치기
+    title: "1-2. 명령어 & 네비게이션"
+    details: "슬래시 명령어 · 대화로 시키고 고치기"
     link: /part1/1-2-commands
     linkText: 열기
   - icon: 🚀
-    title: 1-3. 클로드 코드 자동화, 어디까지?
-    details: 강사 에이전트의 리서치·제안·콘텐츠 실물 쇼케이스
+    title: "1-3. 클로드 코드 자동화, 어디까지?"
+    details: "강사 에이전트의 리서치·제안·콘텐츠 실물 쇼케이스"
     link: /part1/1-3-showcase
     linkText: 열기
   - icon: ✨
-    title: 1-4. 자동화 맛보기 : 코치 만들기
-    details: ⭐ 첫 성공 — 미니 코치를 직접 돌려보기
+    title: "1-4. 자동화 맛보기 : 코치 만들기"
+    details: "⭐ 첫 성공 — 미니 코치를 직접 돌려보기"
     link: /part1/1-4-agent
     linkText: 열기
   - icon: 🧩
-    title: 2-1. 에이전트 개념
-    details: 에이전트 · 서브에이전트 · 오케스트레이션
+    title: "2-1. 에이전트 개념"
+    details: "에이전트 · 서브에이전트 · 오케스트레이션"
     link: /part2/2-1-agents
     linkText: 열기
   - icon: 📋
-    title: 2-2. PRD (제품 요구사항 문서)
-    details: 코치가 무엇을 · 어떻게 답할지 한 장 명세
+    title: "2-2. PRD (제품 요구사항 문서)"
+    details: "코치가 무엇을 · 어떻게 답할지 한 장 명세"
     link: /part2/2-2-prd
     linkText: 열기
   - icon: 🛡️
-    title: 2-3. 하네스 엔지니어링
-    details: Generator/Evaluator — 근거 없는 답을 걸러내는 구조
+    title: "2-3. 하네스 엔지니어링"
+    details: "Generator/Evaluator — 근거 없는 답을 걸러내는 구조"
     link: /part2/2-3-harness
     linkText: 열기
   - icon: 🎓
-    title: 2-4. 나만의 커리어 코치 만들기
-    details: ⭐ 최종 성공 — 내 자료로 작명·페르소나·3모드·검수
+    title: "2-4. 나만의 커리어 코치 만들기"
+    details: "⭐ 최종 성공 — 내 자료로 작명·페르소나·3모드·검수"
     link: /part2/2-4-build
     linkText: 열기
   - icon: 💡
-    title: 2-5. 실무 팁
-    details: 일상화 습관 · 코치 계속 키우기
+    title: "2-5. 실무 팁"
+    details: "일상화 습관 · 코치 계속 키우기"
     link: /part2/2-5-tips
     linkText: 열기
   - icon: 📚
-    title: 부록
-    details: 인제스트 레시피 · 개인정보 · MCP · md 하이어라키 · 출처
+    title: "부록"
+    details: "인제스트 레시피 · 개인정보 · MCP · md 하이어라키 · 출처"
     link: /appendix
     linkText: 부록
 ---
