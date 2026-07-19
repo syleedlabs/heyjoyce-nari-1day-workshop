@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   lang: 'ko-KR',
   title: "ELLA'S 1DAY WORKSHOP",
-  description: "나만의 커리어 코치 — 내 지식을 학습한 분신 에이전트를 4시간 만에 만드는 워크숍",
+  description: "나만의 커리어 코치 — 내 자료를 학습한 분신 에이전트를 4시간 만에 만드는 워크숍",
   base: '/heyjoyce-nari-1day-workshop/',
   themeConfig: {
     nav: [
@@ -25,9 +25,9 @@ export default defineConfig({
         text: 'Part 1 — 기초 다지기',
         items: [
           { text: '1-1. 클로드 코드란?', link: '/part1/1-1-intro' },
-          { text: '1-2. 재점검 & 첫 실행', link: '/part1/1-2-reactivate' },
-          { text: '1-3. 명령어 & 네비게이션', link: '/part1/1-3-commands' },
-          { text: '1-4. 커리어 에이전트 만들기 (자동화 맛보기)', link: '/part1/1-4-agent' },
+          { text: '1-2. 명령어 & 네비게이션', link: '/part1/1-2-commands' },
+          { text: '1-3. 클로드 코드 자동화, 어디까지?', link: '/part1/1-3-showcase' },
+          { text: '1-4. 자동화 맛보기 : 코치 만들기', link: '/part1/1-4-agent' },
         ]
       },
       {

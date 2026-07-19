@@ -37,7 +37,7 @@ cron은 학습자가 한국어로 말하면 자동 변환. **옵션** — 손으
 - `.claude/agents/코치.md` (페르소나)
 - `.claude/agents/그라운딩-검수.md` (검수자)
 - `/answer`·`/spar`·`/research` (운영 커맨드 3종)
-- `knowledge/` (지식 베이스, 로컬 보관)
+- `knowledge/` (자료 폴더, 로컬 보관)
 - `HABITS.md` (트리거 표)
 - (선택) `.claude/routines/weekly-research.md`
 
