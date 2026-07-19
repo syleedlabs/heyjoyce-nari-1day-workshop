@@ -1,49 +1,165 @@
-# 강사 소개 — 이수연 (Ella)
+<style>
+.host{
+  --h-surface:#FFFFFF; --h-surface2:#FBFBFC;
+  --h-navy:#1E3A5F; --h-navy2:#2E5586; --h-accent:#E8623A;
+  --h-ink:#232833; --h-muted:#6E7686; --h-faint:#9AA3B2; --h-line:#E4E8EE;
+  --h-shadow:0 1px 2px rgba(20,40,63,.04), 0 8px 24px rgba(20,40,63,.06);
+  color:var(--h-ink); line-height:1.6; margin:6px 0 8px;
+  font-family:"Pretendard","Apple SD Gothic Neo","Noto Sans KR",var(--vp-font-family-base,system-ui),sans-serif;
+}
+html.dark .host{
+  --h-surface:#171C25; --h-surface2:#141922;
+  --h-navy:#8FB2DE; --h-navy2:#A7C4E8; --h-accent:#F2794F;
+  --h-ink:#E6E9EF; --h-muted:#9AA3B2; --h-faint:#6E7686; --h-line:#28303B;
+  --h-shadow:0 1px 2px rgba(0,0,0,.3), 0 10px 30px rgba(0,0,0,.35);
+}
+.host *{box-sizing:border-box}
+.host ul{list-style:none;margin:0;padding:0}
+.host li{margin:0}
+.host section{margin:0}
+.host a{text-decoration:none;font-weight:inherit}
+.host a::after{display:none!important}
 
-::: tip 워크숍 시작 전 · 오늘 4시간을 함께할 사람
-본격적으로 만들기 전에, 진행하는 강사를 짧게 소개할게요.
-:::
+.host .eyebrow{display:flex;align-items:baseline;gap:12px;margin-bottom:18px}
+.host .eyebrow .lab{display:flex;flex-direction:column}
+.host .eyebrow b{color:var(--h-navy);font-size:1rem;font-weight:800}
+.host .eyebrow .bar{width:34px;height:3px;background:var(--h-accent);border-radius:2px;margin-top:7px}
+.host .eyebrow .tag{color:var(--h-accent);font-size:.64rem;font-weight:700;letter-spacing:.22em;text-transform:uppercase}
 
-## 이수연 (Ella)
+.host .head{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;padding-bottom:18px;border-bottom:2px solid var(--h-line);margin-bottom:26px}
+.host .head .name{font-size:2rem;font-weight:800;letter-spacing:-.01em;line-height:1.05;margin:0;color:var(--h-ink);border:none;padding:0}
+.host .head .role{color:var(--h-accent);font-weight:800;font-size:1rem;margin-top:6px}
+.host .head .role-sub{color:var(--h-muted);font-size:.85rem;margin-top:1px}
+.host .head-right{text-align:right;display:flex;flex-direction:column;align-items:flex-end;gap:2px}
+.host .head-right .word{font-size:1.3rem;font-weight:800;letter-spacing:.02em;color:var(--h-navy)}
+.host .head-right .word .dot{color:var(--h-accent)}
+.host .head-right .btag{color:var(--h-muted);font-size:.73rem;margin-bottom:8px}
+.host .contact{display:flex;flex-direction:column;gap:6px;align-items:flex-end}
+.host .contact a{display:flex;align-items:center;gap:8px;color:var(--h-muted);font-size:.82rem;transition:color .15s}
+.host .contact a:hover{color:var(--h-accent)}
+.host .contact .ic{width:19px;height:19px;flex:none;display:grid;place-items:center;border-radius:6px;background:var(--h-surface2);border:1px solid var(--h-line);color:var(--h-navy);font-size:.66rem;font-weight:700}
 
-**AI Technical PM · AX 담당**
-서안개발(주) 부동산 컨설팅팀 (신사업팀) · 디랩스(D.Labs) 대표
+.host .grid2{display:grid;grid-template-columns:1.1fr 1fr;gap:34px;align-items:start}
+.host .col{display:flex;flex-direction:column;gap:24px}
+.host .sec-h{display:flex;align-items:center;gap:9px;margin-bottom:12px}
+.host .sec-h .ico{font-size:.95rem}
+.host .sec-h h3{font-size:1.02rem;font-weight:800;color:var(--h-navy);margin:0;position:relative;padding:0 0 8px;border:none}
+.host .sec-h h3::after{content:"";position:absolute;left:0;bottom:0;width:26px;height:3px;background:var(--h-accent);border-radius:2px}
+.host .sec-h .note{color:var(--h-faint);font-size:.71rem;font-weight:600}
 
-오늘 4시간 워크숍 동안 함께할 강사예요. RAG·LLM 챗봇 POC 개발 이후 콘텐츠·KPI 자동화 파이프라인 전 과정을 기획-구현-운영하고 있어요. 프롭테크 도메인에서 AI를 실무에 붙이는 일을 이어가고 있습니다.
+.host .lect{display:flex;flex-direction:column;gap:11px}
+.host .lect li{display:flex;flex-direction:column;gap:1px}
+.host .lect .org{font-weight:700;color:var(--h-ink);font-size:.9rem}
+.host .lect .course{color:var(--h-muted);font-size:.82rem}
 
-이 커리어 코치 워크숍도 같은 철학에서 나왔어요. **흩어진 지식을 구조화해, 근거 있게 재사용하는 것.** 오늘은 그걸 여러분의 커리어 코칭 자산에 적용합니다.
+.host .tl{display:flex;flex-direction:column}
+.host .tl li{display:grid;grid-template-columns:92px 1fr;gap:10px;padding:9px 0;border-top:1px solid var(--h-line)}
+.host .tl li:first-child{border-top:none}
+.host .tl .yr{color:var(--h-accent);font-weight:700;font-size:.77rem;font-variant-numeric:tabular-nums;padding-top:1px}
+.host .tl .who b{display:block;color:var(--h-ink);font-weight:700;font-size:.87rem}
+.host .tl .who span{color:var(--h-muted);font-size:.79rem}
 
-## 연락처
+.host .edu{display:flex;flex-direction:column;gap:10px}
+.host .edu b{display:block;color:var(--h-ink);font-weight:700;font-size:.9rem}
+.host .edu span{color:var(--h-muted);font-size:.79rem}
 
-- **이메일**: team.d.labs@gmail.com
-- **LinkedIn**: [linkedin.com/in/syceline](https://linkedin.com/in/syceline)
+.host .awards{display:flex;flex-direction:column;gap:12px}
+.host .award{background:var(--h-surface);border:1px solid var(--h-line);border-radius:14px;padding:13px 15px;box-shadow:var(--h-shadow)}
+.host .award .top{display:flex;align-items:center;gap:8px;margin-bottom:4px}
+.host .award .yr{color:var(--h-accent);font-weight:800;font-size:.81rem;font-variant-numeric:tabular-nums}
+.host .award .ttl{font-weight:800;color:var(--h-ink);font-size:.86rem}
+.host .award .org{color:var(--h-faint);font-size:.71rem;margin-bottom:7px}
+.host .award .proj{color:var(--h-ink);font-size:.82rem;line-height:1.5}
+.host .award .proj b{color:var(--h-navy2);font-weight:700}
+.host .award .tags{display:flex;flex-wrap:wrap;gap:5px;margin-top:8px}
+.host .award .tag{font-size:.65rem;color:var(--h-muted);background:var(--h-surface2);border:1px solid var(--h-line);border-radius:20px;padding:2px 9px}
 
-## 강사가 만든 것들
+@media (max-width:640px){
+  .host .head{flex-direction:column;align-items:flex-start;gap:16px}
+  .host .head-right{text-align:left;align-items:flex-start}
+  .host .contact{align-items:flex-start}
+  .host .grid2{grid-template-columns:1fr;gap:28px}
+}
+@media (prefers-reduced-motion: reduce){.host *{transition:none!important}}
+</style>
 
-- **마케팅 SNS 채널 KPI 통계 대시보드 자동화** — 인스타그램 KPI 데이터 자동 수집·집계·리포트 생성 파이프라인
-- **AI 챗봇 REXA** — RAG·LLM 카카오톡 챗봇
-- **콘텐츠 제작·배포 파이프라인 자동화** — 데이터 수집부터 카드형 콘텐츠 생성·SNS 업로드까지 End-to-End
-- **매물관리시스템 데이터 자동 연계** — 공공 API 기반 건물정보 자동입력 파이프라인
+<div class="host">
+  <div class="eyebrow">
+    <div class="lab"><b>강사 소개</b><span class="bar"></span></div>
+    <span class="tag">INSTRUCTOR</span>
+  </div>
 
-## 출강 이력
+  <header class="head">
+    <div class="head-left">
+      <h1 class="name">이수연</h1>
+      <div class="role">디랩스(D.LABS) 대표</div>
+      <div class="role-sub">AX 바이브코딩 교육 · 컨설팅</div>
+    </div>
+    <div class="head-right">
+      <div class="word">D.LABS<span class="dot">.</span></div>
+      <div class="btag">Define · Design · Delegate</div>
+      <div class="contact">
+        <a href="mailto:team.d.labs@gmail.com"><span class="ic">✉</span>team.d.labs@gmail.com</a>
+        <a href="https://linkedin.com/in/syceline" target="_blank" rel="noreferrer"><span class="ic">in</span>linkedin.com/in/syceline</a>
+      </div>
+    </div>
+  </header>
 
-| 기관 | 일정 | 과정 | 도구 |
-|---|---|---|---|
-| 삼성 E&A | 2026.08 (중) | 에이전트 생성·하네스 구축 기초/응용 | Claude Code |
-| 모두의연구소 | 2026.08.25 | MCP를 활용한 마케팅 KPI & 대시보드 만들기 | Claude Code · MCP |
-| 코람코 자산운용 | 2026.07.14 / 15 / 23 | 업무혁신을 위한 AI 실무 활용 (신입사원·전사) | Claude.ai & Genspark |
-| 코람코 자산운용 | 2026.06.01 / 02 / 04 | 업무혁신을 위한 AI 실무 활용 (전사) | Claude.ai & Genspark |
-| 파크시스템스 | 2026.05.22 | 전사 대상 AX 바이브코딩 기업연수 | Claude Code |
-| 군산대학교 | 2024.07 | 인공지능 신뢰성 기초 과정(FL) 이론 과정 | — |
-| 모두의연구소 | 2023.10 ~ 11 | 코칭스터디 13기 「Data Science 2023」 코딩 코치 | — |
+  <div class="grid2">
+    <div class="col">
+      <section>
+        <div class="sec-h"><span class="ico">📚</span><h3>강의 이력</h3><span class="note">출강</span></div>
+        <ul class="lect">
+          <li><span class="org">삼성 E&amp;A</span><span class="course">AI 기초·실습 과정 — 에이전트 생성 · 하네스 엔지니어링</span></li>
+          <li><span class="org">코람코 자산운용</span><span class="course">업무혁신을 위한 AI 실무 활용 (전사 대상)</span></li>
+          <li><span class="org">파크시스템스</span><span class="course">전사 AX 바이브코딩 연수 · with Claude Code</span></li>
+          <li><span class="org">군산대학교</span><span class="course">「신뢰할 수 있는 인공지능」 비교과 (3일 과정)</span></li>
+          <li><span class="org">모두의연구소</span><span class="course">코칭스터디 · Data Science 코딩 코치</span></li>
+        </ul>
+      </section>
+      <section>
+        <div class="sec-h"><span class="ico">🏢</span><h3>커리어 타임라인</h3><span class="note">소속 이력</span></div>
+        <ul class="tl">
+          <li><span class="yr">2026.05~</span><span class="who"><b>디랩스(D.LABS)</b><span>대표</span></span></li>
+          <li><span class="yr">2025~26.06</span><span class="who"><b>서안개발 · 부동산컨설팅팀</b><span>AI Technical PM (AX)</span></span></li>
+          <li><span class="yr">2024</span><span class="who"><b>씽크포비엘 TRAI연구팀 · 리팩토웍스</b><span>CCEO</span></span></li>
+          <li><span class="yr">2023</span><span class="who"><b>모두의연구소 · 코칭스터디</b><span>코치</span></span></li>
+          <li><span class="yr">2020~22</span><span class="who"><b>롯데멤버스 · 데이터애널리틱스팀</b><span>DA</span></span></li>
+        </ul>
+      </section>
+    </div>
 
-## 학력
+    <div class="col">
+      <section>
+        <div class="sec-h"><span class="ico">🎓</span><h3>학력</h3></div>
+        <ul class="edu">
+          <li><b>연세대학교 공학대학원</b><span>인공지능공학부 석사</span></li>
+          <li><b>고려대학교</b><span>응용통계학 학사</span></li>
+        </ul>
+      </section>
+      <section>
+        <div class="sec-h"><span class="ico">🏆</span><h3>수상</h3></div>
+        <div class="awards">
+          <div class="award">
+            <div class="top"><span class="yr">2024</span><span class="ttl">AI Showcase 발표 우수상</span></div>
+            <div class="org">연세대 공학대학원</div>
+            <div class="proj"><b>Music Diary</b> — 텍스트의 감정을 인식해 배경음악·이미지·음성을 자동 생성하는 감성 표현 서비스</div>
+            <div class="tags"><span class="tag">MusicGen</span><span class="tag">Stable Diffusion</span><span class="tag">TTS</span></div>
+          </div>
+          <div class="award">
+            <div class="top"><span class="yr">2022</span><span class="ttl">AI Showcase 발표 우수상</span></div>
+            <div class="org">연세대 공학대학원</div>
+            <div class="proj"><b>Meta AI ART Gallery</b> — DALL·E·NeRF로 개인화 아트워크를 생성해 메타버스 환경에 전시하는 플랫폼</div>
+            <div class="tags"><span class="tag">Unity</span><span class="tag">NeRF</span><span class="tag">전송 프로토콜</span></div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+</div>
 
-- 연세대학교 공학대학원 (인공지능공학부 석사)
-- 고려대학교 응용통계학 학사
+RAG·LLM 챗봇 POC 이후 콘텐츠·KPI 자동화 파이프라인을 기획-구현-운영하고, 프롭테크 도메인에서 AI를 실무에 붙이는 일을 이어가고 있어요.
 
----
-
-> 진행 중 막히는 부분이나 본업에 적용할 아이디어가 떠오르시면, 세션이 끝나고 Q&A 시간에 언제든 물어봐 주세요. 수업 이후 원하시면 1:1 지도도 진행하고 있어요. 끝나고 언제든 연락 주세요!
+> 진행 중 막히는 부분이나 본업에 적용할 아이디어가 떠오르면, 세션이 끝나고 Q&A 시간에 언제든 물어봐 주세요. 수업 이후 원하시면 1:1 지도도 진행하고 있어요.
 
 이제 시작해볼까요? → [Part 1 — 클로드 코드란?](/part1/1-1-intro)
