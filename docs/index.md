@@ -4,60 +4,71 @@ layout: home
 hero:
   name: "ELLA'S 1DAY WORKSHOP"
   text: "나만의 커리어 코치"
-  tagline: "오늘 워크숍이 끝나면, 내 지식을 학습한 코치 분신이 완성돼있을 거예요!"
+  tagline: "오늘 워크숍이 끝나면, 내 자료를 학습한 코치 분신이 완성돼 있을 거예요!"
   actions:
     - theme: brand
       text: 시작하기
       link: /prologue
     - theme: alt
-      text: 부록
-      link: /appendix
+      text: 강사 소개
+      link: /part1/0-host
 
 features:
   - icon: 🎬
-    title: Prologue
-    details: 0. 프롤로그 — 내 지식이 말을 한다면. 워크숍이 무엇을 만들지 5분 미리보기
+    title: Prologue — 내 지식이 말을 한다면
+    details: 오늘 무엇을 만드는지 5분 미리보기 + 4시간 뒤의 약속
     link: /prologue
-    linkText: 시작
-  - icon: 💡
-    title: Part 1 — 기초 다지기
-    details: 클로드 코드 기초 + 강사 자동화 데모 + 커리어 에이전트 첫 실행(1-4)
+    linkText: 프롤로그
+  - icon: 🤖
+    title: 1-1. 클로드 코드란?
+    details: 보통 챗봇과 뭐가 다른지 · AI-Native 마인드셋
     link: /part1/1-1-intro
-    linkText: Part 1로
-  - icon: 📚
-    title: Part 2 — 고급 활용
-    details: 에이전트·PRD·하네스 개념 → 내 자료로 진짜 코치(2-4) + 3모드·근거검수
+    linkText: 열기
+  - icon: ⌨️
+    title: 1-2. 명령어 & 네비게이션
+    details: 슬래시 명령어 · 대화로 시키고 고치기
+    link: /part1/1-2-commands
+    linkText: 열기
+  - icon: 🚀
+    title: 1-3. 클로드 코드 자동화, 어디까지?
+    details: 강사 에이전트의 리서치·제안·콘텐츠 실물 쇼케이스
+    link: /part1/1-3-showcase
+    linkText: 열기
+  - icon: ✨
+    title: 1-4. 자동화 맛보기 : 코치 만들기
+    details: ⭐ 첫 성공 — 미니 코치를 직접 돌려보기
+    link: /part1/1-4-agent
+    linkText: 열기
+  - icon: 🧩
+    title: 2-1. 에이전트 개념
+    details: 에이전트 · 서브에이전트 · 오케스트레이션
     link: /part2/2-1-agents
-    linkText: Part 2로
-  - icon: 🔒
+    linkText: 열기
+  - icon: 📋
+    title: 2-2. PRD (제품 요구사항 문서)
+    details: 코치가 무엇을 · 어떻게 답할지 한 장 명세
+    link: /part2/2-2-prd
+    linkText: 열기
+  - icon: 🛡️
+    title: 2-3. 하네스 엔지니어링
+    details: Generator/Evaluator — 근거 없는 답을 걸러내는 구조
+    link: /part2/2-3-harness
+    linkText: 열기
+  - icon: 🎓
+    title: 2-4. 나만의 커리어 코치 만들기
+    details: ⭐ 최종 성공 — 내 자료로 작명·페르소나·3모드·검수
+    link: /part2/2-4-build
+    linkText: 열기
+  - icon: 💡
+    title: 2-5. 실무 팁
+    details: 일상화 습관 · 코치 계속 키우기
+    link: /part2/2-5-tips
+    linkText: 열기
+  - icon: 📚
     title: 부록
-    details: 자료 인제스트 레시피 · 개인정보 익명화 · MCP 확장
+    details: 인제스트 레시피 · 개인정보 · MCP · md 하이어라키 · 출처
     link: /appendix
-    linkText: 부록 보기
----
-
-## 전체 커리큘럼
-
-**시작**
-- 🧑‍🏫 [강사 소개 — 이수연 (Ella)](/part1/0-host)
-- 🎬 [0. 프롤로그 : 내 지식이 말을 한다면](/prologue)
-
-**Part 1 — 기초 다지기**
-- 🤖 [1-1. 클로드 코드란?](/part1/1-1-intro)
-- ⌨️ [1-2. 명령어 & 네비게이션](/part1/1-2-commands)
-- 🚀 [1-3. 클로드 코드 자동화, 어디까지?](/part1/1-3-showcase)
-- ✨ [1-4. 자동화 맛보기 : 코치 만들기](/part1/1-4-agent) ⭐ 첫 성공
-
-**Part 2 — 고급 활용**
-- 🧩 [2-1. 에이전트 개념](/part2/2-1-agents)
-- 📋 [2-2. PRD (제품 요구사항 문서)](/part2/2-2-prd)
-- 🛡️ [2-3. 하네스 엔지니어링](/part2/2-3-harness)
-- 🎓 [2-4. 나만의 커리어 코치 만들기](/part2/2-4-build) ⭐ 최종 성공
-- 💡 [2-5. 실무 팁](/part2/2-5-tips)
-
-**부록**
-- 📚 [자료 인제스트 · 개인정보 · MCP · md 하이어라키](/appendix)
-
+    linkText: 부록
 ---
 
 ## 워크북 사용법
