@@ -59,7 +59,7 @@ export default defineConfig({
       }
     ],
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/Celine96/heyjoyce-nari-1day-workshop' }
+      { icon: 'github', link: 'https://github.com/syleedlabs/heyjoyce-nari-1day-workshop' }
     ],
     outline: {
       level: [2, 3],
