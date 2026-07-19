@@ -20,15 +20,15 @@ features:
     link: /prologue
     linkText: 시작
   - icon: 💡
-    title: ch1 — 기초 + 완성 코치 맛보기
-    details: 코치 작명·페르소나 + 시드(빌린 지식)로 완성 코치를 먼저 경험(1-4)
+    title: Part 1 — 기초 다지기
+    details: 클로드 코드 기초 + 강사 자동화 데모 + 커리어 에이전트 첫 실행(1-4)
     link: /part1/1-1-intro
-    linkText: ch1로
+    linkText: Part 1로
   - icon: 📚
-    title: ch2 — 개념 + 나만의 코치 만들기
+    title: Part 2 — 고급 활용
     details: 에이전트·PRD·하네스 개념 → 내 자료로 진짜 코치(2-4) + 3모드·근거검수
     link: /part2/2-1-agents
-    linkText: ch2로
+    linkText: Part 2로
   - icon: 🔒
     title: 부록
     details: 자료 인제스트 레시피 · 개인정보 익명화 · MCP 확장
@@ -46,7 +46,7 @@ features:
 - **[체크포인트]** — 진행 상황 확인 + 주요 마일스톤
 
 ### 소요시간
-약 **4시간** (Prologue 5분 + ch1 기초·맛보기 + ch2 개념·빌드)
+약 **4시간** (Prologue 5분 + Part 1 기초·맛보기 + Part 2 개념·빌드)
 
 ### 사전 준비물
 - 노트북, 인터넷 연결

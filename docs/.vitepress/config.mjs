@@ -8,8 +8,8 @@ export default defineConfig({
   themeConfig: {
     nav: [
       { text: '홈', link: '/' },
-      { text: 'ch1', link: '/part1/1-1-intro' },
-      { text: 'ch2', link: '/part2/2-1-agents' },
+      { text: 'Part 1', link: '/part1/1-1-intro' },
+      { text: 'Part 2', link: '/part2/2-1-agents' },
       { text: '부록', link: '/appendix' },
     ],
     sidebar: [
@@ -22,23 +22,22 @@ export default defineConfig({
         ]
       },
       {
-        text: 'ch1 — 기초 + 완성 코치 맛보기',
+        text: 'Part 1 — 기초 다지기',
         items: [
-          { text: '1-1. 커리어 코치 에이전트란', link: '/part1/1-1-intro' },
-          { text: '1-2. 작업실 재점검 + 안전 약속', link: '/part1/1-2-reactivate' },
-          { text: '1-3. 명령어 & 코치 작명', link: '/part1/1-3-naming' },
-          { text: '1-4. 완성 코치 맛보기 (시드로 첫 성공)', link: '/part1/1-4-taste' },
+          { text: '1-1. 클로드 코드란?', link: '/part1/1-1-intro' },
+          { text: '1-2. 재점검 & 첫 실행', link: '/part1/1-2-reactivate' },
+          { text: '1-3. 명령어 & 네비게이션', link: '/part1/1-3-commands' },
+          { text: '1-4. 커리어 에이전트 만들기 (자동화 맛보기)', link: '/part1/1-4-agent' },
         ]
       },
       {
-        text: 'ch2 — 개념 + 나만의 코치 만들기',
+        text: 'Part 2 — 고급 활용',
         items: [
           { text: '2-1. 에이전트 개념', link: '/part2/2-1-agents' },
           { text: '2-2. PRD (제품 요구사항 문서)', link: '/part2/2-2-prd' },
           { text: '2-3. 하네스 엔지니어링', link: '/part2/2-3-harness' },
-          { text: '2-4. 나만의 코치 만들기', link: '/part2/2-4-build' },
-          { text: '2-5. 3모드 완성 + 근거 검수', link: '/part2/2-5-modes' },
-          { text: '2-6. 실무 팁 + 일상화', link: '/part2/2-6-tips' },
+          { text: '2-4. 나만의 커리어 코치 만들기', link: '/part2/2-4-build' },
+          { text: '2-5. 실무 팁', link: '/part2/2-5-tips' },
         ]
       },
       {
@@ -51,16 +50,8 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/syleedlabs/heyjoyce-nari-1day-workshop' }
     ],
-    outline: {
-      level: [2, 3],
-      label: '목차'
-    },
-    search: {
-      provider: 'local'
-    },
-    docFooter: {
-      prev: '이전',
-      next: '다음'
-    }
+    outline: { level: [2, 3], label: '목차' },
+    search: { provider: 'local' },
+    docFooter: { prev: '이전', next: '다음' }
   }
 })
