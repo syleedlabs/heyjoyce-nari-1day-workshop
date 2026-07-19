@@ -8,9 +8,8 @@ export default defineConfig({
   themeConfig: {
     nav: [
       { text: '홈', link: '/' },
-      { text: 'Part 1', link: '/part1/1-1-intro' },
-      { text: 'Part 2', link: '/part2/2-1-ingest' },
-      { text: 'Part 3', link: '/part3/3-1-answer' },
+      { text: 'ch1', link: '/part1/1-1-intro' },
+      { text: 'ch2', link: '/part2/2-1-agents' },
       { text: '부록', link: '/appendix' },
     ],
     sidebar: [
@@ -23,38 +22,29 @@ export default defineConfig({
         ]
       },
       {
-        text: 'Part 1 — 코치 정체성',
+        text: 'ch1 — 기초 + 완성 코치 맛보기',
         items: [
           { text: '1-1. 커리어 코치 에이전트란', link: '/part1/1-1-intro' },
           { text: '1-2. 작업실 재점검 + 안전 약속', link: '/part1/1-2-reactivate' },
-          { text: '1-3. 코치 작명 + 첫 만남', link: '/part1/1-3-naming' },
-          { text: '1-4. 코치의 매뉴얼 초안', link: '/part1/1-4-persona-draft' },
+          { text: '1-3. 명령어 & 코치 작명', link: '/part1/1-3-naming' },
+          { text: '1-4. 완성 코치 맛보기 (시드로 첫 성공)', link: '/part1/1-4-taste' },
         ]
       },
       {
-        text: 'Part 2 — 지식 베이스 구축',
+        text: 'ch2 — 개념 + 나만의 코치 만들기',
         items: [
-          { text: '2-0. 빌린 지식으로 먼저 성공하기', link: '/part2/2-0-seed-preview' },
-          { text: '2-1. 내 자료 불러오기 (인제스트)', link: '/part2/2-1-ingest' },
-          { text: '2-2. 내 지식 구조화하기', link: '/part2/2-2-structure' },
-          { text: '2-3. 코치의 첫 그라운딩 답변', link: '/part2/2-3-first-answer' },
-          { text: '2-4. 개인정보 익명화 · 로컬 보관', link: '/part2/2-4-privacy' },
-        ]
-      },
-      {
-        text: 'Part 3 — 3모드 완성 · 일상화',
-        items: [
-          { text: '3-1. 대리응답 완성 (/answer)', link: '/part3/3-1-answer' },
-          { text: '3-2. 토론 파트너 (/spar)', link: '/part3/3-2-spar' },
-          { text: '3-3. 리서치 대행 (/research)', link: '/part3/3-3-research' },
-          { text: '3-4. 근거 검수 붙이기', link: '/part3/3-4-grounding-check' },
-          { text: '3-5. 일상화 습관 + 마무리', link: '/part3/3-5-handoff' },
+          { text: '2-1. 에이전트 개념', link: '/part2/2-1-agents' },
+          { text: '2-2. PRD (제품 요구사항 문서)', link: '/part2/2-2-prd' },
+          { text: '2-3. 하네스 엔지니어링', link: '/part2/2-3-harness' },
+          { text: '2-4. 나만의 코치 만들기', link: '/part2/2-4-build' },
+          { text: '2-5. 3모드 완성 + 근거 검수', link: '/part2/2-5-modes' },
+          { text: '2-6. 실무 팁 + 일상화', link: '/part2/2-6-tips' },
         ]
       },
       {
         text: '부록',
         items: [
-          { text: '자료 인제스트 · 개인정보 · MCP 확장 레시피', link: '/appendix' },
+          { text: '자료 인제스트 · 개인정보 · MCP · md 하이어라키', link: '/appendix' },
         ]
       }
     ],

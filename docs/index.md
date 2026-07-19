@@ -20,20 +20,15 @@ features:
     link: /prologue
     linkText: 시작
   - icon: 💡
-    title: Part 1 — 코치 정체성
-    details: 코치 작명, 도메인·화법 인터뷰, 페르소나 초안 자동 작성
+    title: ch1 — 기초 + 완성 코치 맛보기
+    details: 코치 작명·페르소나 + 시드(빌린 지식)로 완성 코치를 먼저 경험(1-4)
     link: /part1/1-1-intro
-    linkText: Part 1로
+    linkText: ch1로
   - icon: 📚
-    title: Part 2 — 지식 베이스 구축
-    details: 빌린 예제 지식으로 먼저 성공(2-0) → 내 PPT·영상·상담을 불러와 구조화, 코치의 첫 그라운딩 답변
-    link: /part2/2-1-ingest
-    linkText: Part 2로
-  - icon: ⚙️
-    title: Part 3 — 3모드 완성·일상화
-    details: 대리응답·토론·리서치 3모드 + 근거 검수 + 일상 습관
-    link: /part3/3-1-answer
-    linkText: Part 3로
+    title: ch2 — 개념 + 나만의 코치 만들기
+    details: 에이전트·PRD·하네스 개념 → 내 자료로 진짜 코치(2-4) + 3모드·근거검수
+    link: /part2/2-1-agents
+    linkText: ch2로
   - icon: 🔒
     title: 부록
     details: 자료 인제스트 레시피 · 개인정보 익명화 · MCP 확장
@@ -51,7 +46,7 @@ features:
 - **[체크포인트]** — 진행 상황 확인 + 주요 마일스톤
 
 ### 소요시간
-약 **4시간** (Prologue 5분 + Part 1 50분 + Part 2 95분 + Part 3 105분)
+약 **4시간** (Prologue 5분 + ch1 기초·맛보기 + ch2 개념·빌드)
 
 ### 사전 준비물
 - 노트북, 인터넷 연결
@@ -61,4 +56,4 @@ features:
 ### 학습 모드
 - 프롬프트가 완벽하지 않아도 괜찮습니다. 코치는 **클로드 코드와의 대화로 언제든 수정**할 수 있어요.
 - 모르는 부분 있으면 멈추고 물어보세요.
-- **상담 노트의 실제 내담자 정보는 익명화**해서 넣습니다. 개인정보 원칙은 [2-4](/part2/2-4-privacy)에서 자세히.
+- **상담 노트의 실제 내담자 정보는 익명화**해서 넣습니다. 개인정보 원칙은 [2-4](/part2/2-4-build)에서 자세히.
