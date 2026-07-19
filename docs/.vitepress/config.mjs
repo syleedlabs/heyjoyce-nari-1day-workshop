@@ -43,7 +43,7 @@ export default defineConfig({
       {
         text: '부록',
         items: [
-          { text: '자료 인제스트 · 개인정보 · MCP · md 하이어라키', link: '/appendix' },
+          { text: '자료 인제스트 · md 파일들 · 다음 단계', link: '/appendix' },
         ]
       }
     ],
