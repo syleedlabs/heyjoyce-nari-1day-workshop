@@ -84,78 +84,51 @@ html.dark .host{
 </style>
 
 <div class="host">
-  <div class="eyebrow">
-    <div class="lab"><b>강사 소개</b><span class="bar"></span></div>
-    <span class="tag">INSTRUCTOR</span>
-  </div>
-
-  <header class="head">
-    <div class="head-left">
-      <h1 class="name">이수연</h1>
-      <div class="role">디랩스(D.LABS) 대표</div>
-      <div class="role-sub">AX 바이브코딩 교육 · 컨설팅</div>
-    </div>
-    <div class="head-right">
-      <div class="word">D.LABS<span class="dot">.</span></div>
-      <div class="btag">Define · Design · Delegate</div>
-      <div class="contact">
-        <a href="mailto:team.d.labs@gmail.com"><span class="ic">✉</span>team.d.labs@gmail.com</a>
-        <a href="https://linkedin.com/in/syceline" target="_blank" rel="noreferrer"><span class="ic">in</span>linkedin.com/in/syceline</a>
-      </div>
-    </div>
-  </header>
-
-  <div class="grid2">
-    <div class="col">
-      <section>
-        <div class="sec-h"><span class="ico">📚</span><h3>강의 이력</h3><span class="note">출강</span></div>
-        <ul class="lect">
-          <li><span class="org">삼성 E&amp;A</span><span class="course">AI 기초·실습 과정 — 에이전트 생성 · 하네스 엔지니어링</span></li>
-          <li><span class="org">코람코 자산운용</span><span class="course">업무혁신을 위한 AI 실무 활용 (전사 대상)</span></li>
-          <li><span class="org">파크시스템스</span><span class="course">전사 AX 바이브코딩 연수 · with Claude Code</span></li>
-          <li><span class="org">군산대학교</span><span class="course">「신뢰할 수 있는 인공지능」 비교과 (3일 과정)</span></li>
-          <li><span class="org">모두의연구소</span><span class="course">코칭스터디 · Data Science 코딩 코치</span></li>
-        </ul>
-      </section>
-      <section>
-        <div class="sec-h"><span class="ico">🏢</span><h3>커리어 타임라인</h3><span class="note">소속 이력</span></div>
-        <ul class="tl">
-          <li><span class="yr">2026.05~</span><span class="who"><b>디랩스(D.LABS)</b><span>대표</span></span></li>
-          <li><span class="yr">2025~26.06</span><span class="who"><b>서안개발 · 부동산컨설팅팀</b><span>AI Technical PM (AX)</span></span></li>
-          <li><span class="yr">2024</span><span class="who"><b>씽크포비엘 TRAI연구팀 · 리팩토웍스</b><span>CCEO</span></span></li>
-          <li><span class="yr">2023</span><span class="who"><b>모두의연구소 · 코칭스터디</b><span>코치</span></span></li>
-          <li><span class="yr">2020~22</span><span class="who"><b>롯데멤버스 · 데이터애널리틱스팀</b><span>DA</span></span></li>
-        </ul>
-      </section>
-    </div>
-
-    <div class="col">
-      <section>
-        <div class="sec-h"><span class="ico">🎓</span><h3>학력</h3></div>
-        <ul class="edu">
-          <li><b>연세대학교 공학대학원</b><span>인공지능공학부 석사</span></li>
-          <li><b>고려대학교</b><span>응용통계학 학사</span></li>
-        </ul>
-      </section>
-      <section>
-        <div class="sec-h"><span class="ico">🏆</span><h3>수상</h3></div>
-        <div class="awards">
-          <div class="award">
-            <div class="top"><span class="yr">2024</span><span class="ttl">AI Showcase 발표 우수상</span></div>
-            <div class="org">연세대 공학대학원</div>
-            <div class="proj"><b>Music Diary</b> — 텍스트의 감정을 인식해 배경음악·이미지·음성을 자동 생성하는 감성 표현 서비스</div>
-            <div class="tags"><span class="tag">MusicGen</span><span class="tag">Stable Diffusion</span><span class="tag">TTS</span></div>
-          </div>
-          <div class="award">
-            <div class="top"><span class="yr">2022</span><span class="ttl">AI Showcase 발표 우수상</span></div>
-            <div class="org">연세대 공학대학원</div>
-            <div class="proj"><b>Meta AI ART Gallery</b> — DALL·E·NeRF로 개인화 아트워크를 생성해 메타버스 환경에 전시하는 플랫폼</div>
-            <div class="tags"><span class="tag">Unity</span><span class="tag">NeRF</span><span class="tag">전송 프로토콜</span></div>
-          </div>
-        </div>
-      </section>
-    </div>
-  </div>
+<div class="eyebrow"><div class="lab"><b>강사 소개</b><span class="bar"></span></div><span class="tag">INSTRUCTOR</span></div>
+<header class="head">
+<div class="head-left"><h1 class="name">이수연</h1><div class="role">디랩스(D.LABS) 대표</div><div class="role-sub">AX 바이브코딩 교육 · 컨설팅</div></div>
+<div class="head-right"><div class="word">D.LABS<span class="dot">.</span></div><div class="btag">Define · Design · Delegate</div><div class="contact"><a href="mailto:team.d.labs@gmail.com"><span class="ic">✉</span>team.d.labs@gmail.com</a><a href="https://linkedin.com/in/syceline" target="_blank" rel="noreferrer"><span class="ic">in</span>linkedin.com/in/syceline</a></div></div>
+</header>
+<div class="grid2">
+<div class="col">
+<section>
+<div class="sec-h"><span class="ico">📚</span><h3>강의 이력</h3><span class="note">출강</span></div>
+<ul class="lect">
+<li><span class="org">삼성 E&amp;A</span><span class="course">AI 기초·실습 과정 — 에이전트 생성 · 하네스 엔지니어링</span></li>
+<li><span class="org">코람코 자산운용</span><span class="course">업무혁신을 위한 AI 실무 활용 (전사 대상)</span></li>
+<li><span class="org">파크시스템스</span><span class="course">전사 AX 바이브코딩 연수 · with Claude Code</span></li>
+<li><span class="org">군산대학교</span><span class="course">「신뢰할 수 있는 인공지능」 비교과 (3일 과정)</span></li>
+<li><span class="org">모두의연구소</span><span class="course">코칭스터디 · Data Science 코딩 코치</span></li>
+</ul>
+</section>
+<section>
+<div class="sec-h"><span class="ico">🏢</span><h3>커리어 타임라인</h3><span class="note">소속 이력</span></div>
+<ul class="tl">
+<li><span class="yr">2026.05~</span><span class="who"><b>디랩스(D.LABS)</b><span>대표</span></span></li>
+<li><span class="yr">2025~26.06</span><span class="who"><b>서안개발 · 부동산컨설팅팀</b><span>AI Technical PM (AX)</span></span></li>
+<li><span class="yr">2024</span><span class="who"><b>씽크포비엘 TRAI연구팀 · 리팩토웍스</b><span>CCEO</span></span></li>
+<li><span class="yr">2023</span><span class="who"><b>모두의연구소 · 코칭스터디</b><span>코치</span></span></li>
+<li><span class="yr">2020~22</span><span class="who"><b>롯데멤버스 · 데이터애널리틱스팀</b><span>DA</span></span></li>
+</ul>
+</section>
+</div>
+<div class="col">
+<section>
+<div class="sec-h"><span class="ico">🎓</span><h3>학력</h3></div>
+<ul class="edu">
+<li><b>연세대학교 공학대학원</b><span>인공지능공학부 석사</span></li>
+<li><b>고려대학교</b><span>응용통계학 학사</span></li>
+</ul>
+</section>
+<section>
+<div class="sec-h"><span class="ico">🏆</span><h3>수상</h3></div>
+<div class="awards">
+<div class="award"><div class="top"><span class="yr">2024</span><span class="ttl">AI Showcase 발표 우수상</span></div><div class="org">연세대 공학대학원</div><div class="proj"><b>Music Diary</b> — 텍스트의 감정을 인식해 배경음악·이미지·음성을 자동 생성하는 감성 표현 서비스</div><div class="tags"><span class="tag">MusicGen</span><span class="tag">Stable Diffusion</span><span class="tag">TTS</span></div></div>
+<div class="award"><div class="top"><span class="yr">2022</span><span class="ttl">AI Showcase 발표 우수상</span></div><div class="org">연세대 공학대학원</div><div class="proj"><b>Meta AI ART Gallery</b> — DALL·E·NeRF로 개인화 아트워크를 생성해 메타버스 환경에 전시하는 플랫폼</div><div class="tags"><span class="tag">Unity</span><span class="tag">NeRF</span><span class="tag">전송 프로토콜</span></div></div>
+</div>
+</section>
+</div>
+</div>
 </div>
 
 RAG·LLM 챗봇 POC 이후 콘텐츠·KPI 자동화 파이프라인을 기획-구현-운영하고, 프롭테크 도메인에서 AI를 실무에 붙이는 일을 이어가고 있어요.
