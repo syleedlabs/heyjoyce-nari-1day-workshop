@@ -3,7 +3,7 @@ layout: home
 
 hero:
   name: "ELLA'S 1DAY WORKSHOP"
-  text: "나만의 커리어 코치"
+  text: "AI-Native 업무 자동화"
   tagline: "오늘 워크숍이 끝나면, 내 자료를 학습한 코치 분신이 완성돼 있을 거예요!"
   actions:
     - theme: brand
