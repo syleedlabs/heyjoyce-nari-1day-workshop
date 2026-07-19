@@ -14,11 +14,6 @@ hero:
       link: /part1/0-host
 
 features:
-  - icon: 🎬
-    title: "Prologue — 내 지식이 말을 한다면"
-    details: "오늘 무엇을 만드는지 5분 미리보기 + 4시간 뒤의 약속"
-    link: /prologue
-    linkText: 프롤로그
   - icon: 🤖
     title: "1-1. 클로드 코드란?"
     details: "보통 챗봇과 뭐가 다른지 · AI-Native 마인드셋"
@@ -64,11 +59,6 @@ features:
     details: "일상화 습관 · 코치 계속 키우기"
     link: /part2/2-5-tips
     linkText: 열기
-  - icon: 📚
-    title: "부록"
-    details: "인제스트 레시피 · 개인정보 · MCP · md 하이어라키 · 출처"
-    link: /appendix
-    linkText: 부록
 ---
 
 ## 워크북 사용법
