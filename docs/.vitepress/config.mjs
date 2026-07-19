@@ -18,6 +18,7 @@ export default defineConfig({
         text: '시작',
         items: [
           { text: '워크북 소개', link: '/' },
+          { text: '강사 소개 — 이수연 (Ella)', link: '/part1/0-host' },
           { text: '0. 프롤로그 : 내 지식이 말을 한다면', link: '/prologue' },
         ]
       },
@@ -33,6 +34,7 @@ export default defineConfig({
       {
         text: 'Part 2 — 지식 베이스 구축',
         items: [
+          { text: '2-0. 빌린 지식으로 먼저 성공하기', link: '/part2/2-0-seed-preview' },
           { text: '2-1. 내 자료 불러오기 (인제스트)', link: '/part2/2-1-ingest' },
           { text: '2-2. 내 지식 구조화하기', link: '/part2/2-2-structure' },
           { text: '2-3. 코치의 첫 그라운딩 답변', link: '/part2/2-3-first-answer' },

@@ -26,7 +26,7 @@ features:
     linkText: Part 1로
   - icon: 📚
     title: Part 2 — 지식 베이스 구축
-    details: 내 PPT·영상·상담 경험을 불러와 구조화, 코치의 첫 그라운딩 답변
+    details: 빌린 예제 지식으로 먼저 성공(2-0) → 내 PPT·영상·상담을 불러와 구조화, 코치의 첫 그라운딩 답변
     link: /part2/2-1-ingest
     linkText: Part 2로
   - icon: ⚙️
