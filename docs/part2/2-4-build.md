@@ -86,7 +86,7 @@
 `/2-4-structure`는 프레임워크·핵심개념·자주 나오는 질문을 `knowledge/_인덱스.md`로 정리해요. `/2-4-anonymize`는 실명·회사를 가립니다.
 
 ::: warning 로컬 보관 원칙
-`knowledge/원본/`·`_인덱스.md`·`HABITS.md`는 **공개 레포에 올리지 않아요**(`.gitignore`). 자세히는 [부록 B](/appendix#b-개인정보-익명화-가이드)에.
+`knowledge/원본/`·`_인덱스.md`·`HABITS.md`는 **공개 레포에 올리지 않아요**(`.gitignore`).
 :::
 
 ## [Step 5] 내 목소리 첫 답변 ⭐ (15분)
