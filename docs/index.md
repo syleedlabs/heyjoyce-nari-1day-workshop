@@ -51,7 +51,7 @@ features:
     linkText: 열기
   - icon: 🎓
     title: "2-4. 내 자료로 코치 만들기"
-    details: "⭐ 최종 성공 — 내 자료로 작명·페르소나·3모드·검수"
+    details: "⭐ 최종 성공 — 내 자료로 작명·페르소나·세 에이전트·검수"
     link: /part2/2-4-build
     linkText: 열기
   - icon: 💡
